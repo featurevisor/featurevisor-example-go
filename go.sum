@@ -1,2 +1,4 @@
+github.com/featurevisor/featurevisor-go v0.3.0 h1:NirOQI+1fcaJbsS8rTBL3q+b/Cm9VF+CB//o9vKBPVs=
+github.com/featurevisor/featurevisor-go v0.3.0/go.mod h1:RuBZY1b/A8srQSX3HpMn4R0M5RCLd1tj5mvAdSJKP28=
 github.com/featurevisor/featurevisor-go/sdk v0.0.0-20250814123054-46dd7ee7c9bb h1:gqNtMAG2jnwnF7SEg5vAgOA0i8qmZLI/Tbqd6JNtCgQ=
 github.com/featurevisor/featurevisor-go/sdk v0.0.0-20250814123054-46dd7ee7c9bb/go.mod h1:+sLiMHZdU/J8K01bUINUDMZTVFxyA95dyJsD7kRvZHk=

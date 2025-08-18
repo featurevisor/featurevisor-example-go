@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/featurevisor/featurevisor-go/sdk"
+	"github.com/featurevisor/featurevisor-go"
 )
 
 func main() {
@@ -25,7 +25,7 @@ func main() {
 		panic(err)
 	}
 
-	var datafileContent sdk.DatafileContent
+	var datafileContent featurevisor.DatafileContent
 	if err := datafileContent.FromJSON(string(datafileBytes)); err != nil {
 		panic(err)
 	}
@@ -33,10 +33,10 @@ func main() {
 	/**
 	 * Create Featurevisor instance
 	 */
-	f := sdk.CreateInstance(sdk.InstanceOptions{
+	f := featurevisor.CreateInstance(featurevisor.Options{
 		Datafile: datafileContent,
 	})
-	f.SetContext(sdk.Context{
+	f.SetContext(featurevisor.Context{
 		"userId":   "123",
 		"deviceId": "device-23456",
 		"country":  "nl",
