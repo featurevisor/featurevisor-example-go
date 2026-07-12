@@ -33,7 +33,7 @@ func main() {
 	/**
 	 * Create Featurevisor instance
 	 */
-	f := featurevisor.CreateInstance(featurevisor.Options{
+	f := featurevisor.CreateFeaturevisor(featurevisor.FeaturevisorOptions{
 		Datafile: datafileContent,
 	})
 	f.SetContext(featurevisor.Context{
