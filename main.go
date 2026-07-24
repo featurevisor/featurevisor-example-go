@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/featurevisor/featurevisor-go"
+	"github.com/featurevisor/featurevisor-go/v2"
 )
 
 func main() {

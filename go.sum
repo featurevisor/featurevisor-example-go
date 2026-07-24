@@ -1,2 +1,2 @@
-github.com/featurevisor/featurevisor-go v1.0.0 h1:FY1mSUAX557j+aPSTClk7S3V3oofIMLVFjE+UDStXVw=
-github.com/featurevisor/featurevisor-go v1.0.0/go.mod h1:RuBZY1b/A8srQSX3HpMn4R0M5RCLd1tj5mvAdSJKP28=
+github.com/featurevisor/featurevisor-go/v2 v2.0.0 h1:usJOvVe6N9LKxECMqIC0rMoNt9cYDzd2OyoJ66XxjBU=
+github.com/featurevisor/featurevisor-go/v2 v2.0.0/go.mod h1:JBlRZPd6T7p1GoYZEJQjyi59EgOEGWIZA7xYu7CJn2c=
