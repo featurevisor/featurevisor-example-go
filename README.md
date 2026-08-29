@@ -1,6 +1,8 @@
-# Featurevisor Go example
+# featurevisor-example-go
 
 A small application showing how to use the [Featurevisor Go SDK](https://github.com/featurevisor/featurevisor-go).
+
+Learn more about Featurevisor [here](https://featurevisor.com).
 
 It fetches a production datafile, creates a Featurevisor instance with customer context, then evaluates:
 
